@@ -1,0 +1,344 @@
+*{
+    font-family:Arial, Helvetica, sans-serif;
+  }
+  body{
+    position: relative;
+    box-sizing: border-box;
+  
+  }
+  nav {
+    display: flex;
+    font-size: 1.1rem;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-left: 40px;
+    margin-right: 20px;
+  }
+  nav a{
+   margin: 5px;
+   color: black;
+  
+  }
+  nav div {
+    color: rgb(81, 88, 85);
+  }
+  .header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+    padding-left: 40px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    position: sticky;
+    background-color: white;
+    top: 0px;
+    z-index: 1;
+    
+  }
+  .about a{
+    margin: 10px;
+    color: rgb(81, 88, 85);
+  }
+  .section1{
+    position: relative;
+    background-image: url("	https://1mdm.com/about/assets/seller-banner.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 550px;
+  }
+  .main_details{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    display: flex;
+    padding-left: 40px;
+    padding-right: 20px;
+  
+  }
+  .main_left{
+    display: flex;
+    flex-direction: column;
+    width:50%;
+    justify-content:center;
+    font-weight: bolder;
+    align-items: start;
+    padding-left: 30px;
+  }
+  .main_left h1{
+    font-weight: bold;
+    padding-right: 50px;
+    text-align: left;
+    margin-bottom: 60px;
+  }
+  .main_left_btn {
+    display: flex;
+    gap:10px;
+  }
+  .main_left_btn button{
+    border-radius: 50px;
+  }
+  .main_right{
+    width:50%;
+    padding-right: 40px;
+  }
+  .main_right_details{
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    float: right; 
+    justify-content: center;
+    align-items: start;
+  }
+  
+  .section2{
+    margin-top: 30px;
+    width: 100%;
+  
+  }
+  .section2_head {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+  }
+  .section2_head h2{
+    width: 60%;
+    font-weight: bolder;
+    margin-bottom: 30px;
+  }
+  
+  .section2_details{
+    display: flex;
+    flex-direction: row;
+    width:100%;
+  }
+  .section2_left{
+    width:50%;
+    justify-content:start;
+    position: relative;
+    height: auto;
+    margin-left: 40px;
+  }
+    .section2_left_item iframe{
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: auto;
+      
+    }
+    .section2_right{
+      width:50%;
+      justify-content:start;
+      position: relative;
+      }
+    .section2_right p{
+      font-size: large;
+      text-align: left;
+      padding-left: 20px;
+      padding-top: 30px;
+    }
+    .section3{
+      margin-top: 100px;
+      padding-top: 70px;
+      padding-bottom: 80px;
+      background-color: #ed1c24;
+      color: #fff;
+      text-align: center;
+  }
+  .section3 h1{
+    color: #fff;
+  }
+  .section4{
+    margin-top: 40px;
+    padding-left: 80px;
+    padding-right: 80px;
+  }
+  .section4 h2{
+    padding-top: 20px;
+    font-weight: 600;
+    color:#a10005;
+    text-align: center;
+    padding-bottom: 40px;
+  }
+  .section4_details{
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .section4_col1{
+    flex:0 0 auto;
+    width:15%;
+    border-left: 1px solid rgb(83, 83, 83);
+  }
+  .section4_col1_detail{
+    display: flex;
+    flex-direction: column;
+  }
+  .section4_col1_detail a{
+    margin-left: 10px;
+    padding-top: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+    text-decoration: none;
+    color: black;
+  }
+  .section4_col1_detail a:active{
+    color: #ed1c24;
+  }
+    .section4_col2{
+    flex:0 0 auto;
+    width:85%;
+    flex-flow: row;
+  }
+  .nodisplay{
+    display: none;
+  }
+  .section4_col2_details{
+    display: flex;
+    flex-direction: row;
+  }
+  .section4_col2_left{
+    flex:0 0 auto;
+    width: 50%;
+    padding-top: 50px;
+  }
+  
+  .section4_col2_left h1{
+    font-weight: 500;
+  }
+  
+  .section4_col2_right{
+    flex:0 0 auto;
+    width: 50%;
+  }
+  .section4_col2_right img{
+  width: 100%;
+  height: auto;
+  }
+  .section5{  
+    margin-top: 40px;
+    background-color: #e6ecf7;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .section5_details{
+    position: relative;
+    margin: 40px;
+    
+  }
+  .section5_details h2 {
+    text-align: center;
+    color:#a10005;
+  }
+  .slide_content{
+    display: flex;
+    flex-direction: row;
+  }
+  .slide_left{
+    width:40%;
+    background-color: #fff;
+    flex-grow: 1;
+    align-items: center;
+    padding: 15px;
+    justify-content: center;
+    display: flex;
+  }
+  .slide_right{
+    width:60%;
+    height: 500px;
+  }
+  .slide_right img{
+    height: 500px;
+    width:100%;
+  
+  }
+  .footer_details{
+    background-image: url('https://1mdm.com/about/assets/footer-banner.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-top: 120px;
+    padding-bottom: 100px;
+  }
+  .footer_details h2{
+    text-align: center;
+    color:#fff;
+    margin-bottom: 50px;
+  }
+  .footer_btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+  .footer_btn button{
+    border-radius: 50px;
+  }
+  
+  .footer_link{
+    bottom: 30px;
+    right: 30px;
+    position:fixed;
+    gap:20px;
+  }
+  .footer_link p{
+    background-color: #ed1c24;
+    border-radius: 50px;
+    padding-top: 4px;
+    width:200px;
+    height: 30px;
+    color: white;
+    text-align: center;
+  }
+  .footer_link a{
+    text-decoration: none;
+  }
+  .footer{
+    background-color: black;
+  }
+  .footer_container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 60px 30px 60px 30px;
+    }
+    .footer_div1{
+    flex: 2;
+      height: auto;
+    }
+    .footer_logo{
+      align-items: start;
+      display: flex;
+      flex-direction: column;
+    }
+    .footer_logo p{
+      color:#b1adad;
+    }
+  
+    .footer_div2{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    height: auto;
+    color: #fff;
+    }
+  .footer_div2 a{
+    text-decoration: none;
+  }
+  .footer_div2 p{
+    color:#b1adad;
+  }
+  .copyright{
+    display: flex;
+    justify-content: center;
+    margin: 15px auto;
+  }
+  .copyright a{
+    margin-left: 10px;
+    text-decoration: none;
+  }
+  
+  
